@@ -49,6 +49,8 @@ elif prob < 0.66:
     st.warning(f"Moderate Risk (Probability: {prob:.4f})")
 else:
     st.error(f"High Risk (Probability: {prob:.4f})")
+    st.markdown("---")
+st.caption("⚠️ Disclaimer: This tool is for research and educational use only. It is not intended to diagnose, treat, or replace professional medical advice.")
     
 st.markdown("#### 👨‍⚕️ Built by Dr. Suman Kotwal")
 st.markdown("*Endocrinologist*")
