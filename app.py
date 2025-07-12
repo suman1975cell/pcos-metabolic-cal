@@ -51,4 +51,6 @@ else:
     st.error(f"High Risk (Probability: {prob:.4f})")
 
 st.markdown("---")
-st.caption("Disclaimer: This tool is for research and educational use. Not a substitute for clinical judgment.")
+st.caption("⚠️ Disclaimer: This tool is for research and educational use only. Not intended for clinical decision-making.")
+st.caption("🧑‍⚕️ Built by Dr. Suman Kotwal, Endocrinologist)
+
