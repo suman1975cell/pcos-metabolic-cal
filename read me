@@ -1,0 +1,19 @@
+# PCOS Metabolic Risk Calculator
+
+This web-based tool predicts the risk of **metabolic syndrome in women with PCOS** using clinical parameters.
+
+## 💡 Features
+
+- Simple user interface (Streamlit)
+- Inputs: BMI, Waist Circumference, Triglycerides, HDL, Fasting Blood Sugar
+- Outputs: Risk estimate (Low / Moderate / High)
+
+## 🚀 Live Demo
+
+👉 [Try the app here](https://suman1975cell-pcos-metabolic-cal.streamlit.app)
+
+## 🛠️ How to Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
